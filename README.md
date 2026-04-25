@@ -3,7 +3,7 @@
 UrduVoice AI is a modern AI-powered web application that converts **Urdu speech into text** using OpenAI Whisper.  
 It allows users to record audio directly from the browser or upload audio files and receive accurate Urdu transcriptions instantly.
 
----
+--
 
 ## 🚀 Features
 
@@ -23,7 +23,6 @@ It allows users to record audio directly from the browser or upload audio files 
 **Backend**
 - Python
 - Flask
-
 **AI Model**
 - OpenAI Whisper (`medium` model)
 
@@ -39,6 +38,7 @@ It allows users to record audio directly from the browser or upload audio files 
 ---
 
 ## 📁 Project Structure
+
 urdu_speech_app/
 ├── app.py
 ├── requirements.txt
@@ -51,54 +51,31 @@ urdu_speech_app/
 
 ---
 
-## ⚙️ Installation
 
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/your-username/urduvoice-ai.git
-cd urduvoice-ai
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Install FFmpeg (Required)
-Windows: Download from https://ffmpeg.org
-Linux:
-sudo apt install ffmpeg
-▶️ Run the App
-python app.py
-
-Open in browser:
-
-http://127.0.0.1:5000
-🧠 How It Works
-User records audio OR uploads a file
-Audio is sent to Flask backend
-Whisper model processes audio (language="ur")
-Urdu text is returned as JSON
-Text is displayed in RTL format on UI
-🌍 Use Cases
-Urdu dictation
-Content creation
-Accessibility tools
-Voice-based note taking
-Educational tools
-🔮 Future Improvements
-🔴 Real-time streaming transcription
-🌐 Multi-language support
-🔊 Speaker identification
-☁️ Cloud deployment (AWS / Render)
-🌍 Urdu → English translation
-🤝 Contributing
+## 🌍 Use Cases
+Urdu dictation  
+Content creation  
+Accessibility tools      
+Voice-based note taking   
+Educational tools         
+## 🔮 Future Improvements  
+🔴 Real-time streaming transcription   
+🌐 Multi-language support  
+🔊 Speaker identification          
+☁️ Cloud deployment (AWS / Render)   
+🌍 Urdu → English translation  
+🤝 Contributing 
 
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-📜 License
+## 📜 License
 
 This project is open-source and available under the MIT License.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Developed by Hamdan Saddique
+Developed by Sameerah Maqbool
 
-⭐ Support
+## ⭐ Support
 
 If you like this project, please give it a ⭐ on GitHub!
