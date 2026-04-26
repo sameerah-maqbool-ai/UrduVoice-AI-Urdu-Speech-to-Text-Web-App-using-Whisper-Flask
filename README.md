@@ -37,16 +37,8 @@ It allows users to record audio directly from the browser or upload audio files 
 
 ---
 
-## 📁 Project Structure
-
-urdu_speech_app/
-├── app.py
-├── requirements.txt
-├── templates/
-│ └── index.html
-└── static/
-├── css/style.css
-└── js/main.js
+## 📁 Screen Shorts
+<img width="713" height="611" alt="Image" src="https://github.com/user-attachments/assets/fa0b999a-41cf-4c6c-ab17-349e4a4e31d0" />
 
 
 ---
